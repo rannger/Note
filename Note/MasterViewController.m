@@ -70,11 +70,6 @@
 
 #pragma mark - Table View
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _objects.count;
@@ -123,14 +118,13 @@
 }
 
 #pragma mark - UITextFieldDelegate
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
+- (void)textFieldDidEndEditing:(UITextField *)textField
 {
     editing=NO;
     NoteObject *object = _objects[textField.tag];
     object.noteText=textField.text;
     [object save];
     [textField resignFirstResponder];
-    return YES;
 }
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField

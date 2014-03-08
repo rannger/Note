@@ -42,7 +42,7 @@
     frame.origin.y=50;
     frame.size.height=20;
     self.textLabel.frame=frame;
-    self.textLabel.font=[UIFont systemFontOfSize:13];
+    self.textLabel.font=[UIFont boldSystemFontOfSize:13];
     self.textLabel.backgroundColor=[UIColor clearColor];
     self.textLabel.textAlignment=NSTextAlignmentRight;
 }
