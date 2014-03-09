@@ -645,6 +645,7 @@
 				8F32151618CAF39800DC8011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F32151718CAF39800DC8011 /* Build configuration list for PBXNativeTarget "NoteTests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +654,7 @@
 				8F32151918CAF39800DC8011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
