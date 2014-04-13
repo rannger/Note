@@ -547,9 +547,9 @@
 				GCC_PREFIX_HEADER = "Note/Note-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/fmdb/src/extra",
+					"$(SRCROOT)/fmdb/src/fmdb",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/fmdb/extra",
-					"$(SRCROOT)/fmdb/src",
 				);
 				INFOPLIST_FILE = "Note/Note-Info.plist";
 				OTHER_LDFLAGS = (
@@ -570,9 +570,9 @@
 				GCC_PREFIX_HEADER = "Note/Note-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/fmdb/src/extra",
+					"$(SRCROOT)/fmdb/src/fmdb",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/fmdb/extra",
-					"$(SRCROOT)/fmdb/src",
 				);
 				INFOPLIST_FILE = "Note/Note-Info.plist";
 				OTHER_LDFLAGS = (
