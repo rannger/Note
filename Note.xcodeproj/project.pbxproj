@@ -21,7 +21,6 @@
 		8F32150718CAF39800DC8011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3214E618CAF39800DC8011 /* UIKit.framework */; };
 		8F32150F18CAF39800DC8011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F32150D18CAF39800DC8011 /* InfoPlist.strings */; };
 		8F32151118CAF39800DC8011 /* NoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32151018CAF39800DC8011 /* NoteTests.m */; };
-		8F32152B18CAF56A00DC8011 /* libFMDB-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F32152818CAF54C00DC8011 /* libFMDB-IOS.a */; };
 		8F32152D18CAF57800DC8011 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F32152C18CAF57800DC8011 /* libsqlite3.dylib */; };
 		8F32153218CAF76600DC8011 /* DB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32153118CAF76600DC8011 /* DB.m */; };
 		8F32153618CAFABC00DC8011 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32153518CAFABC00DC8011 /* NSString+Path.m */; };
@@ -29,6 +28,7 @@
 		8F32153C18CAFF8B00DC8011 /* NoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32153B18CAFF8B00DC8011 /* NoteObject.m */; };
 		8F32153F18CB016E00DC8011 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32153E18CB016E00DC8011 /* NSString+UUID.m */; };
 		8F32154318CB091D00DC8011 /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F32154218CB091D00DC8011 /* NoteCell.m */; };
+		BF7DCAE526334D86BF07E623 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867653735D1D4F478B21A0DF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,44 +39,10 @@
 			remoteGlobalIDString = 8F3214DE18CAF39800DC8011;
 			remoteInfo = Note;
 		};
-		8F32152118CAF54C00DC8011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
-			remoteInfo = fmdb;
-		};
-		8F32152318CAF54C00DC8011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE4290EF12B42F870088BD94;
-			remoteInfo = FMDB;
-		};
-		8F32152518CAF54C00DC8011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BF5D041618416BB2008C5AA9;
-			remoteInfo = Tests;
-		};
-		8F32152718CAF54C00DC8011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6290CBB5188FE836009790F8;
-			remoteInfo = "FMDB-IOS";
-		};
-		8F32152918CAF56300DC8011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6290CBB4188FE836009790F8;
-			remoteInfo = "FMDB-IOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		867653735D1D4F478B21A0DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3214DF18CAF39800DC8011 /* Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3214E218CAF39800DC8011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F3214E418CAF39800DC8011 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,7 +62,6 @@
 		8F32150C18CAF39800DC8011 /* NoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteTests-Info.plist"; sourceTree = "<group>"; };
 		8F32150E18CAF39800DC8011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F32151018CAF39800DC8011 /* NoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTests.m; sourceTree = "<group>"; };
-		8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
 		8F32152C18CAF57800DC8011 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		8F32153018CAF76600DC8011 /* DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
 		8F32153118CAF76600DC8011 /* DB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DB.m; sourceTree = "<group>"; };
@@ -110,6 +75,7 @@
 		8F32153E18CB016E00DC8011 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		8F32154118CB091D00DC8011 /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
 		8F32154218CB091D00DC8011 /* NoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		C679968B9997442AAD2933C4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +84,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F32152D18CAF57800DC8011 /* libsqlite3.dylib in Frameworks */,
-				8F32152B18CAF56A00DC8011 /* libFMDB-IOS.a in Frameworks */,
 				8F3214E518CAF39800DC8011 /* CoreGraphics.framework in Frameworks */,
 				8F3214E718CAF39800DC8011 /* UIKit.framework in Frameworks */,
 				8F3214E318CAF39800DC8011 /* Foundation.framework in Frameworks */,
+				BF7DCAE526334D86BF07E623 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +111,7 @@
 				8F32150A18CAF39800DC8011 /* NoteTests */,
 				8F3214E118CAF39800DC8011 /* Frameworks */,
 				8F3214E018CAF39800DC8011 /* Products */,
+				C679968B9997442AAD2933C4 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				8F32152C18CAF57800DC8011 /* libsqlite3.dylib */,
-				8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */,
 				8F3214E218CAF39800DC8011 /* Foundation.framework */,
 				8F3214E418CAF39800DC8011 /* CoreGraphics.framework */,
 				8F3214E618CAF39800DC8011 /* UIKit.framework */,
 				8F32150418CAF39800DC8011 /* XCTest.framework */,
+				867653735D1D4F478B21A0DF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,17 +185,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8F32151B18CAF54C00DC8011 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8F32152218CAF54C00DC8011 /* fmdb */,
-				8F32152418CAF54C00DC8011 /* libFMDB.a */,
-				8F32152618CAF54C00DC8011 /* Tests.xctest */,
-				8F32152818CAF54C00DC8011 /* libFMDB-IOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		8F32152E18CAF70A00DC8011 /* nibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,14 +231,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F32151418CAF39800DC8011 /* Build configuration list for PBXNativeTarget "Note" */;
 			buildPhases = (
+				4A85930AC3084B499660B26E /* Check Pods Manifest.lock */,
 				8F3214DB18CAF39800DC8011 /* Sources */,
 				8F3214DC18CAF39800DC8011 /* Frameworks */,
 				8F3214DD18CAF39800DC8011 /* Resources */,
+				A65F01405C29476BA47ACD8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F32152A18CAF56300DC8011 /* PBXTargetDependency */,
 			);
 			name = Note;
 			productName = Note;
@@ -332,12 +289,6 @@
 			mainGroup = 8F3214D618CAF39800DC8011;
 			productRefGroup = 8F3214E018CAF39800DC8011 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8F32151B18CAF54C00DC8011 /* Products */;
-					ProjectRef = 8F32151A18CAF54C00DC8011 /* fmdb.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8F3214DE18CAF39800DC8011 /* Note */,
@@ -345,37 +296,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8F32152218CAF54C00DC8011 /* fmdb */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = fmdb;
-			remoteRef = 8F32152118CAF54C00DC8011 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8F32152418CAF54C00DC8011 /* libFMDB.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFMDB.a;
-			remoteRef = 8F32152318CAF54C00DC8011 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8F32152618CAF54C00DC8011 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 8F32152518CAF54C00DC8011 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8F32152818CAF54C00DC8011 /* libFMDB-IOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libFMDB-IOS.a";
-			remoteRef = 8F32152718CAF54C00DC8011 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8F3214DD18CAF39800DC8011 /* Resources */ = {
@@ -397,6 +317,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A85930AC3084B499660B26E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A65F01405C29476BA47ACD8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F3214DB18CAF39800DC8011 /* Sources */ = {
@@ -430,11 +383,6 @@
 			isa = PBXTargetDependency;
 			target = 8F3214DE18CAF39800DC8011 /* Note */;
 			targetProxy = 8F32150818CAF39800DC8011 /* PBXContainerItemProxy */;
-		};
-		8F32152A18CAF56300DC8011 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FMDB-IOS";
-			targetProxy = 8F32152918CAF56300DC8011 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -540,6 +488,7 @@
 		};
 		8F32151518CAF39800DC8011 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C679968B9997442AAD2933C4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -547,8 +496,6 @@
 				GCC_PREFIX_HEADER = "Note/Note-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/fmdb/src/extra",
-					"$(SRCROOT)/fmdb/src/fmdb",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "Note/Note-Info.plist";
@@ -563,6 +510,7 @@
 		};
 		8F32151618CAF39800DC8011 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C679968B9997442AAD2933C4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -570,8 +518,6 @@
 				GCC_PREFIX_HEADER = "Note/Note-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/fmdb/src/extra",
-					"$(SRCROOT)/fmdb/src/fmdb",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "Note/Note-Info.plist";
